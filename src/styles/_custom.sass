@@ -1,18 +1,244 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float2 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+    top: 60%
+    right: 70%
 
 
-@keyframes float1
+@keyframes float2
   0%
-    transform: translateY(20px)
+    transform: scale(1,1)
+  0%
+    transform: scale(0.8,0.8)
   100%
-    transform: translateY(0px)
+    transform: scale(1,1)
+
+
+li 
+  i.fas.fa-check, i.fas.fa-certificate, i.fas.fa-folder
+    color: #60A19F
+
+.slyder-f__btn
+  .fas.fa-chevron-right
+    color: #851717
+  .fas.fa-chevron-left
+    color: #851717
+    
+ul.lista-ul--color li, ul.lista-ul.ul-color-a li, ul.lista-ul li, ol.lista-ol--cuadro li
+  display: flex
+  
+.lista-title
+  background-color: #D2EDEC
+  width: fit-content
+  border-radius: 0.8rem
+
+.fondo-1 
+  background: linear-gradient(to bottom, #FFF -10%, #FFFBF3 80%, #FFF 100%)
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+    
+.fondo-2
+  background-image: url('../assets/curso/temas/fondo-2.svg')
+  background-repeat: no-repeat
+  background-size: cover
+
+.fondo-3
+  background-image: url('../assets/curso/temas/fondo-3.svg')
+  background-repeat: no-repeat
+  background-size: cover
+
+.fondo-5
+  background-image: url('../assets/curso/temas/fondoT.svg')
+  background-repeat: no-repeat
+  background-size: cover
+
+.fondo-4 
+  background: #FEF0D7
+
+.tarjeta.tarjeta--gris-b.acordion__activo
+  background-color: #FEF0D7
+.tarjeta.tarjeta--gris-b
+  background-color:  #E8E4DF
+  
+.tarjeta.color-primario-a1
+  background-color: #FEE7BD
+.tarjeta.color-primario-a2
+  background-color: #B0DFDE
+.tarjeta.color-primario-a3
+  background-color: #FFC278
+
+.tarjeta.color-primario-b
+  background-color: #FEF0D7
+  border-radius: 0
+.tarjeta.color-primario-b2
+  background-color: #FEF0D7
+
+.tarjeta.color-primario-a4
+  background-color: #FFFBF3
+
+.tarjeta--boton.color-primario
+  background-color: #E9D3D3
+
+.tarjeta.color-morado
+  background-color: #F3F9FF
+
+.img-infografica__card.img-infografica__card--selected
+  width: 400px
+
+.color-acento-contenido-a
+  background-color: #E9D3D3
+
+.cajon.color-primario
+  background-color: #FEF0D7
+
+.tarjeta.color-secundario-a
+  background-color: #FEF0D7
+  
+.bg-header-table
+  background-color: $color-acento-contenido !important
+
+.tabs-a__tab
+  background-color: #E8E4DF
+
+.linea-tiempo-e:before
+  left: 15% !important
+.linea-tiempo-e__item__header
+  width: 15%
+.linea-tiempo-e__item__body
+  width: 85%
+
+.tarjeta-white
+  background-color: $white
+
+.linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+  background-color: #FFDFB9
+  
+.acordion__accion__btn--b, .slyder__btn, .acordion__accion__btn--a, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: $color-acento-botones
+  border: 1px solid $white
+  i
+    color: $white !important
+
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-image: url('../assets/componentes/arrow.svg')
+
+  
+.pasos-b__header__item--active
+  .pasos-b__header__item__dot
+    border-color: #851717 !important
+    background-color: #851717 !important
+    span
+      color: $white !important
+.pasos-b__header__item--before
+  .pasos-b__header__item__dot
+    border-color: #FFC278
+    background-color: #FFC278
+    i
+      color: $black !important
+.pasos-b__header__item__dot
+  background-color: #F3F9FF
+
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after
+  background-color: #9D9D9D
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before
+  background-color: #9D9D9D
+  
+.pasos-b__header__btn--left, .pasos-b__header__btn--right
+  background-color: $color-acento-botones
+  border: 1px solid $white
+  i
+    color: $white !important
+
+.slyder-a__bullets__item
+  background-color: #3C5756
+.slyder-a__bullets__item--active
+  background-color: $color-acento-botones !important
+  border-color: $white
+
+.cajon.color-secundario
+  background-color: #FFDFB9
+
+.img-infografica-b__modal
+  background-color: #63502F
+  p
+    color: $white
+
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body 
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      p
+        color: $white  
+      h5
+        color: $white
+        background-image: url('../assets/curso/temas/ico-up.svg')
+        background-size: 7% 100%
+        background-repeat: no-repeat
+        padding-left: 1.8rem
+        
+      @media (max-width:767px)  
+        p
+          font-size: 0.85em
+        h5
+          background-size: 5.5% 100%
+
+  .crd_hover_txt--body
+    color: $white
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #851717
+    p 
+      color: $white  
+    h5
+      color: $white
+      cursor: pointer
+      background-image: url('../assets/curso/temas/ico-down.svg')
+      background-size: 7% 100%
+      background-repeat: no-repeat
+      padding-left: 1.8rem
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+        color: $white  
+
+.linea-tiempo-d__item__content__title, .linea-tiempo-d__item__number
+  background-color: #E8E4DF
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+  background-color: #FFDFB9
+
+  
+.tabs-c__content-item
+  background-color: #FFDFB9
+
+.tabs-c__header
+  margin-top: 0px
+
+// Color activo:
+.tabs-c__tab--active
+// Color inactivo:
+.tabs-c__tab
+  background-color: #E8E4DF
+// Espacio header:
+.tabs-c__header
+  margin-bottom: 0px
+
+.tabs-c__tab--active
+  background-color: #FFFFFF
+  border-bottom-color: #851717 !important
+.tabs-c__tab--active:before 
+  border-top-color: #851717
+.tabs-c__tab--active
+  font-weight: 700
