@@ -71,11 +71,11 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-down")
       .col-12.col-lg-10
-        .row.align-items-center.tarjeta.color-primario-b.p-4
-          .col-md-3.col-8
+        .row.justify-content-center.align-items-center.tarjeta.color-primario-b.p-4
+          .col-lg-3.col-8.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema2/img_3.svg', alt='')
-          .col-md-7.col-12 
+          .col-lg-9.col-12 
             ul.lista-ul--color
               li 
                 i.fas.fa-play
