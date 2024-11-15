@@ -363,16 +363,16 @@
         figure
           img(src='@/assets/curso/temas/tema3/img_5.svg', alt='')
       .col-lg-9.col-12
-        TabsA.color-acento-botones
-          .tarjeta.color-primario.p-4(titulo="El líder")
+        LineaTiempoD.color-acento-botones
+          div(numero="1" titulo="El líder")
             p Dirige y coordina su equipo, da inicio a la reunión, otorga el uso de la palabra, realiza y recibe ofertas, acepta o rechaza.
-          .tarjeta.color-primario.p-4(titulo="El poli bueno o agente bueno")
+          div(numero="2" titulo="El poli bueno o agente bueno")
             p Se ocupa de crear un ambiente favorable.
-          .tarjeta.color-primario.p-4(titulo="El poli malo o agente malo")
+          div(numero="3" titulo="El poli malo o agente malo")
             p Hace el papel contrario al anterior, por lo que su trabajo es molestar a la contraparte sin que llegue a abandonar el proceso.
-          .tarjeta.color-primario.p-4(titulo="El ordenancista")
+          div(numero="4" titulo="El ordenancista")
             p Maneja los ritmos de la negociación.
-          .tarjeta.color-primario.p-4(titulo="El hombre escoba")
+          div(numero="5" titulo="El hombre escoba")
             p Tiene como papel es estar atento a todas las señales del adversario y registrar aspectos tales como: tomar nota de reacciones, el lenguaje verbal y no verbal, la actuación de los integrantes de su propio equipo, hacer cálculos matemáticos sobre las diferentes alternativas que se presenten, los roles que asumen los integrantes del equipo contrario y registrar las conclusiones y acuerdos parciales.
     
     p.mb-5(data-aos="fade-right") Los integrantes del equipo deben ubicarse en la mesa de la siguiente manera, según los autores previos:
@@ -574,7 +574,7 @@
             .lista-ol--cuadro__vineta
               span #[strong(style="color:#000000") 7]
             p.mb-2 Evitar dar órdenes.
-      .col-lg-3.col-12.order-lg-2.order-1.mb-5.mb-lg-0
+      .col-lg-3.col-6.order-lg-2.order-1.mb-5.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema3/img_11.svg', alt='')
 
@@ -583,7 +583,7 @@
         p Al presentar los argumentos, aparecen las objeciones, las cuales son inherentes al proceso, por lo que son verdaderas oportunidades para construir una relación de negocios duradera, puesto que al solucionarlas se genera confianza mutua. Al respecto Puchol, Núñez & Puchol (2010), plantean las siguientes maneras de manejar las objeciones:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-down")
-      .col-lg-5.col-10
+      .col-lg-5.col-10.mb-4.mb-lg-2
         figure
           img(src='@/assets/curso/temas/tema3/img_12.png', alt='')
       .col-lg-5.col-12
@@ -671,7 +671,7 @@
               p Se evidencia a través de movimientos corporales, los cuales se realizan, en la mayoría de los casos, inconscientes.
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-down")
-      .col-lg-6.col-xl-5.col-10
+      .col-lg-6.col-xl-5.col-10.mb-4.mb-lg-2
         figure
           img(src='@/assets/curso/temas/tema3/img_13.png', alt='')
       .col-lg-6.col-xl-5.col-12
@@ -754,7 +754,7 @@
     p.mb-5(data-aos="fade-right") Si el negociador practica la escucha activa; es decir, estar atentos a la comunicación verbal y no verbal del otro, podrá ayudar a obtener la mayor información posible sobre la contraparte, además de construir confianza.
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-down")
-      .col-lg-4.col-8
+      .col-lg-4.col-8.mb-5.mb-lg-2
         figure
           img(src='@/assets/curso/temas/tema3/img_14.png', alt='')
       .col-lg-8.col-12
@@ -1143,7 +1143,7 @@
     p.mb-5(data-aos="fade-right") Con un acuerdo favorable a las dos partes, sin dejar de lado que puede ocurrir que no se logre el acuerdo. Puchol, Núñez & Puchol (2010), argumentan que si se llega a un acuerdo es necesario:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-down")
-      .col-lg-4.col-10.mb-4.mb-lg-0
+      .col-lg-4.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema3/img_21.svg', alt='')
       .col-lg-8.col-12

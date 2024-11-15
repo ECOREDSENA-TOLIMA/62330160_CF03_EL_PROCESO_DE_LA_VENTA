@@ -28,23 +28,23 @@
 
     p.mb-5(data-aos="fade-right") No obstante, en su área de desempeño, la mayoría de los contratos que deberán establecer serán de tipo comercial, los cuales hacen referencia a “un acuerdo jurídico bilateral que tiene por objeto una acción de comercio” y su regulación se encuentra en los artículos 905 al 967 del Código de Comercio indicando:
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-down")
+    .row.justify-content-center.h-100.mb-5(data-aos="zoom-in-down")
       .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-primario.p-5
+        .tarjeta-numerada.color-primario.p-5.h-100
           .tarjeta-numerada__numero
             .h2 1
           p.text-center 
             b Compraventa 
           p.text-center La compraventa es un contrato en que una de las partes se obliga a trasmitir la propiedad de una cosa y la otra a pagarla en dinero. El dinero que el comprador da por la cosa vendida se llama precio.
       .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-acento-contenido.p-5
+        .tarjeta-numerada.color-acento-contenido.p-5.h-100
           .tarjeta-numerada__numero
             .h2 2
           p.text-center 
             b Precio
           p.text-center Cuando el precio consista parte en dinero y parte en otra cosa, se entenderá permuta si la cosa vale más que el dinero y venta en el caso contrario.
       .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-secundario.p-5
+        .tarjeta-numerada.color-secundario.p-5.h-100
           .tarjeta-numerada__numero
             .h2 3
           p.text-center 
@@ -61,15 +61,14 @@
     p.mb-5(data-aos="fade-right") Estos requisitos hacen referencia a los elementos que dan legitimidad a un contrato, sin los cuales el acto contractual pierde validez y, por consiguiente, se considera nulo. Encontrando:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-down")
-      .col-lg-3.col-6.mb-4.mb-lg-0
-        figure
-          img(src='@/assets/curso/temas/tema4/img_2.svg', alt='')
-      .col-lg-9.col-12
+      //- .col-lg-3.col-6.mb-4.mb-lg-0
+      //-   figure
+      //-     img(src='@/assets/curso/temas/tema4/img_2.svg', alt='')
+      .col-lg-12.col-12
         TabsA.color-acento-botones
           .tarjeta.color-primario.p-4(titulo="Dos partes capaces")
             p Que quienes lo firman tengan absoluta capacidad personal y jurídica para contraer dichas obligaciones. 
           .tarjeta.color-primario.p-4(titulo="La voluntad y consentimiento")
-            h4 La voluntad y consentimiento
             p Hace referencia a un acto libre sin vicios o presiones que obliguen a una de las partes.
           .tarjeta.color-primario.p-4(titulo="Objeto")
             p Debe establecerse claramente la finalidad y legalidad del contrato, ya sea un objeto jurídico o material.
@@ -183,7 +182,7 @@
           div(numero="1" titulo="Contrato de comisión") 
             p.mb-4 El contrato de comisión es “una especie de mandato por el cual se encomienda a una persona que se dedica profesionalmente a ello la ejecución de uno o varios negocios en nombre propio, pero por cuenta ajena” (Artículo 1287 y s.s. Código de Comercio).
             p.mb-4 Las personas involucradas son:
-            .tarjeta.tarjeta-white.p-4
+            .tarjeta.tarjeta-white.mb-4.p-4
               ul.lista-ul--color.mb-0
                 li 
                   i.fas.fa-play
@@ -282,7 +281,7 @@
         p.mb-5(data-aos="fade-right") Es aquel en que, a pesar de no seguirse la formalidad, el vínculo no deja de surgir por la ausencia de la misma.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-down")
-      .col-lg-3.col-10.mb-4.mb-lg-0
+      .col-lg-3.col-6.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema4/img_7.png', alt='')
       .col-lg-7.col-12
