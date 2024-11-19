@@ -52,12 +52,16 @@
         h4 Ley 140 de 1994 
         p Reglamenta la publicidad exterior en el territorio nacional. Sin embargo, cada municipio tiene una normativa particular que regula la actividad a nivel local.
 
-    .row.justify-content-center.mb-4(data-aos="fade-down")
-      .col-12
-        ul.lista-ul--color.lista-title
-          li.mb-0.px-3.py-1
-            i.fas.fa-certificate(style="top:3px")
-            h4.mb-0 Normas cambiarias
+    //- .row.justify-content-center.mb-4(data-aos="fade-down")
+    //-   .col-12
+    //-     ul.lista-ul--color.lista-title
+    //-       li.mb-0.px-3.py-1
+    //-         i.fas.fa-certificate(style="top:3px")
+    //-         h4.mb-0 Normas cambiarias
+    
+    Separador
+    #t_5_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 5.2 Normas cambiarias
 
     p.mb-5(data-aos="fade-right") Las principales normas cambiarias son:
 
@@ -84,12 +88,17 @@
           .col-12
             p.mb-0 Resolución derogada, con excepción del parágrafo 1 del artículo 43, el cual tendrá vigencia hasta el 31 de diciembre de 2018, por el artículo 109 de la Resolución 1 de 2018. Define las normas para declarar el cambio de moneda extranjera, las diferentes operaciones del mercado cambiario, el manejo de divisas para la importación y exportación de bienes, el endeudamiento externo, las inversiones de capital provenientes del exterior, las inversiones colombianas en el exterior, la constitución de avales y garantías en moneda extranjera, las operaciones de derivados, el régimen especial para el manejo de divisas del sector de hidrocarburos y minería, las operaciones de divisas dentro de las zonas francas, las cuentas en moneda extranjera, la regulación para los intermediarios del mercado cambiario, el papel del Banco de la República en el mercado cambiario, el régimen de tenencia, posesión y negociación de divisas y las obligaciones en moneda extranjera.
             
-    .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-12
-        ul.lista-ul--color.lista-title
-          li.mb-0.px-3.py-1
-            i.fas.fa-certificate(style="top:3px")
-            h4.mb-0 Normas del comercio internacional
+    //- .row.justify-content-center.mb-5(data-aos="fade-down")
+    //-   .col-12
+    //-     ul.lista-ul--color.lista-title
+    //-       li.mb-0.px-3.py-1
+    //-         i.fas.fa-certificate(style="top:3px")
+    //-         h4.mb-0 Normas del comercio internacional
+
+    
+    Separador
+    #t_5_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 5.3 Normas del comercio internacional
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-down")
       .col-lg-5.col-6.mb-4.mb-lg-0

@@ -149,7 +149,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/CFA_03_62330160_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -327,7 +327,7 @@ export default {
           nombre: 'Mercedes Useche Céspedes',
           cargo: 'Líder expertos temáticos',
           centro:
-            'Centro de Gestión de Mercados y TIC – Regional Distrito Capital',
+            'Centro de Gestión de Mercados y TIC - Regional Distrito Capital',
         },
         {
           nombre: 'Carlos Arturo Aristizábal Rodríguez',
@@ -356,7 +356,7 @@ export default {
           nombre: 'Jhon Jairo Buitrago Pastrana',
           cargo: 'Gestor de Curso',
           centro:
-            'Centro de Gestión y Desarrollo Sostenible Sur Colombiano – Regional Huila',
+            'Centro de Gestión y Desarrollo Sostenible Sur Colombiano - Regional Huila',
         },
         {
           nombre: 'Janet Lucía Villalba Triana',
@@ -421,7 +421,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Norma Constanza Morales Cruz',
+          nombre: 'Jorge Eduardo Rueda Peña',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
