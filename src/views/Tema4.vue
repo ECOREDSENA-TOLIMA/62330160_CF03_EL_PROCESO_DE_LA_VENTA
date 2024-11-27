@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/temas/tema4/img_1.png', alt='')
       .col-12.col-lg-7
-        p Los procesos de negociación se formalizan a través de la celebración de un contrato, el cual, más que un documento se convierte en el marco que regirá las relaciones comerciales entre las partes, puesto que, en él, se estipula todo lo pactado en la negociación.
+        p Los procesos de negociación se formalizan a través de la celebración de un contrato, el cual, más que un documento, se convierte en el marco que regirá las relaciones comerciales entre las partes, puesto que, en él, se estipula todo lo pactado en la negociación.
         p Los contratos legales, sin importar de qué tipo sean, están regidos por instituciones gubernamentales en cada país. Por esa razón, toda esta temática recogerá citas de artículos consignados en el Código de Comercio o el Código Civil de Colombia.
         p.mb-0 El artículo 864 del Código de Comercio define el contrato como un acuerdo de dos o más partes para constituir, regular o extinguir una relación jurídica patrimonial y salvo estipulación en contrario, se entenderá celebrado en el lugar de residencia del proponente y en el momento en que este reciba la aceptación de la propuesta.
 
@@ -69,7 +69,7 @@
           .tarjeta.color-primario.p-4(titulo="Dos partes capaces")
             p Que quienes lo firman tengan absoluta capacidad personal y jurídica para contraer dichas obligaciones. 
           .tarjeta.color-primario.p-4(titulo="La voluntad y consentimiento")
-            p Hace referencia a un acto libre sin vicios o presiones que obliguen a una de las partes.
+            p Hace referencia a un acto libre, sin vicios o presiones que obliguen a una de las partes.
           .tarjeta.color-primario.p-4(titulo="Objeto")
             p Debe establecerse claramente la finalidad y legalidad del contrato, ya sea un objeto jurídico o material.
           .tarjeta.color-primario.p-4(titulo="Causa")

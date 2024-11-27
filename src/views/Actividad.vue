@@ -41,8 +41,8 @@ export default {
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: false },
-            { id: 'b', texto: 'Verdadero', esCorrecta: true },
+            { id: 'a', texto: 'Falso', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero', esCorrecta: false },
           ],
           mensaje_correcto:
             'Muy bien. Las estrategias son más amplias que las tácticas.',

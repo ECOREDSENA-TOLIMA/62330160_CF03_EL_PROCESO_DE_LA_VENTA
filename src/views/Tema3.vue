@@ -109,7 +109,7 @@
                   p.mb-1 El servicio técnico o de apoyo, que necesite el consumidor para el uso del producto o servicio. 
                 li 
                   i.fas.fa-play
-                  p.mb-1 La instalación. Algunos productos como máquinas, necesitan instalación y adecuación del sitio en donde se van a ubicar. 
+                  p.mb-1 La instalación. Algunos productos, como máquinas, necesitan instalación y adecuación del sitio en donde se van a ubicar. 
                 li 
                   i.fas.fa-play
                   p.mb-1 Asesoría y acompañamiento, que por la complejidad del producto se requiere facilitar al cliente. 
@@ -280,7 +280,7 @@
             i.fas.fa-certificate(style="top:3px")
             h4.mb-0 Preparación de la agenda
       .col-12
-        p.mb-5(data-aos="fade-right") Cada actor debe preparar su agenda, pero todos los actores deben ponerse de acuerdo en la agenda definitiva de la negociación, la cual debe seguirse de manera estricta. Los apartes que debe llevar una agenda, en concepto de Puchol, Núñez & Puchol (2010), son:
+        p.mb-5(data-aos="fade-right") Cada actor debe preparar su agenda, pero todos los actores deben ponerse de acuerdo, en la agenda definitiva de la negociación, la cual debe seguirse de manera estricta. Los apartes que debe llevar una agenda, en concepto de Puchol, Núñez & Puchol (2010), son:
       .col-lg-7.col-12
         ul.lista-ul--color.mb-0
           li 
@@ -475,7 +475,7 @@
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-down")
       .col-lg-7.col-12.order-lg-1.order-2
-        p No puede decirse que este es el inicio de la negociación, puesto que en realidad el verdadero inicio se encuentra en la primera etapa que es el antes de la negociación. Por consiguiente, el inicio de la segunda etapa es cuando se encuentran los negociadores.
+        p No puede decirse que este es el inicio de la negociación, puesto que en realidad el verdadero inicio se encuentra en la primera etapa, que es el antes de la negociación. Por consiguiente, el inicio de la segunda etapa es cuando se encuentran los negociadores.
         p.mb-4 En esta parte del proceso:
         .row.align-items-center
           .col-lg-3.col-12.d-none.d-lg-block
@@ -1176,7 +1176,7 @@
             p.mb-1 Terminar la negociación de manera cordial, evitando los insultos causados por los desacuerdos.
           li 
             i.fas.fa-play
-            p.mb-1 Conservar, dentro de lo posible la relación personal.
+            p.mb-1 Conservar, dentro de lo posible, la relación personal.
       
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-12

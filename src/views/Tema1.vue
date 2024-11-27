@@ -25,7 +25,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img_3.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 A su vez, los procesos de globalización y de internacionalización de las economías, así como los procesos de negociación, permiten definiciones más amplias del término, tal como la que propone el Banco Nacional de Comercio Exterior de México - Bancomext, que en su publicación Técnicas de Negociación Internacional, realizada en (2001), plantea que la negociación es “…el proceso mediante el cual, las partes involucradas - donde una posee o puede hacer algo que la otra desea y viceversa - se comunican recíprocamente, con el objetivo de lograr un acuerdo que brinde las bases para un correcto entendimiento que ayude a la consecución de las necesidades y por lo tanto, la satisfacción de las partes interesadas”.
+        p.mb-0 A su vez, los procesos de globalización y de internacionalización de las economías, así como los procesos de negociación, permiten definiciones más amplias del término, tal como la que propone el Banco Nacional de Comercio Exterior de México - Bancomext, que en su publicación Técnicas de Negociación Internacional, realizada en (2001), plantea que la negociación es “…el proceso mediante el cual, las partes involucradas - donde una posee o puede hacer algo que la otra desea y viceversa - se comunican recíprocamente, con el objetivo de lograr un acuerdo que brinde las bases para un correcto entendimiento que ayude a la consecución de las necesidades y, por lo tanto, la satisfacción de las partes interesadas”.
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-12

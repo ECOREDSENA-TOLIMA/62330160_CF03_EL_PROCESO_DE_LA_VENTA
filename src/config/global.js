@@ -192,7 +192,7 @@ export default {
         'resumen o recopilación de información que presenta de manera concisa los puntos más relevantes de un tema específico.',
     },
     {
-      termino: '<em>Minimax</em>',
+      termino: 'Minimax',
       significado:
         'se basa en la estrategia de minimizar la posible pérdida máxima que se puede sufrir.',
     },

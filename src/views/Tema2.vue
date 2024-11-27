@@ -88,7 +88,7 @@
                 p.mb-1 Regatear el precio. 
               li 
                 i.fas.fa-play
-                p.mb-1 Forzar la venta mediante pruebas o demostraciones. un acuerdo. 
+                p.mb-1 Forzar la venta mediante pruebas o demostraciones. 
 
 </template>
 
